@@ -1,0 +1,17 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#about_box {
+  background: #E7E6E6; 
+}
+
+#about_inner {
+  width:1200px;
+  height:600px;
+  margin:0 auto;
+  background: #E7E6E6;
+}

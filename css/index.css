@@ -24,6 +24,7 @@
   box-shadow: 1px 1px 5px 0px gray;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
+  z-index: 1;
 }
 
 .logo a {
@@ -56,42 +57,6 @@
 .menu_box .menu_inner li a:hover {
   color:#DDD;
 }
-
-#home_page {
-  width: 100%;
-  height: 920px;
-  background: #FFF;
-}
-
-#home_unused_box {
-  width:1200px;
-  height:80px;
-}
-
-#about_page {
-  width: 100%;
-  height: 600px;
-  background: #E7E6E6; 
-}
-
-#skills_page {
-  width: 100%;
-  height: 900px;
-  background: #FFD26D;
-}
-
-#archiving_page {
-  width: 100%;
-  height: 800px;
-  background: #A9D18E;
-}
-
-#projects_page {
-  width: 100%;
-  height: 1000px;
-  background: #668CD0;
-}
-
 
 #footer {
   width: 100%;
