@@ -5,8 +5,13 @@
   text-decoration: none;
 }
 
-#projects_page {
-  width: 100%;
+#projects_box {
+  background: #668CD0;
+}
+
+#projects_inner {
+  width: 1200px;
   height: 1000px;
+  margin: 0 auto;
   background: #668CD0;
 }

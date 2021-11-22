@@ -5,8 +5,15 @@
   text-decoration: none;
 }
 
-#skills_page {
+#skills_box {
   width: 100%;
   height: 900px;
+  background: #FFD26D;
+}
+
+#skills_inner {
+  width:1200px;
+  height:900px;
+  margin:0 auto;
   background: #FFD26D;
 }
