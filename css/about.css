@@ -11,14 +11,16 @@
 
 #about_inner {
   width:1200px;
-  height:600px;
+  height:700px;
   margin:0 auto;
   background: #E7E6E6;
 }
 
 #title {
   text-align: center;
-  padding: 50px;
+  text-decoration: underline;
+  font-size: 35px;
+  padding: 70px;
 }
 
 #huge_box {
@@ -26,7 +28,8 @@
   height: 400px;
   display: table-cell;
   vertical-align: middle;
-  border-radius: 40px;
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px -10px gray;
   background-color: white;
 }
 

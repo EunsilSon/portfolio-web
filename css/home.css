@@ -27,17 +27,19 @@
 }
 
 #text1 {
-  position: absolute;
-  top: 380px;
-  right: 600px;
+  width: 100px;
+  position: relative;
+  bottom: 360px;
+  left: 800px;
   color: rgb(79, 129, 238);
 }
 
 #text2 {
-  position: absolute;
-  top: 405px;
-  right: 560px;
-  font-size: 19px;
+  width: 60px;
+  position: relative;
+  bottom: 384px;
+  left: 860px;
+  font-size: 18.3px;
 }
 
 #btn {
@@ -46,7 +48,6 @@
   line-height: 46px;
   text-align: center;
   margin: auto;
-  margin-top: 40px;
   font-weight: bold;
   color: white;
   border-radius: 30px 30px;
