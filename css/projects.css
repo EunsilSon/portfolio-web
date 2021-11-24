@@ -1,0 +1,17 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#projects_box {
+  background: #668CD0;
+}
+
+#projects_inner {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  background: #668CD0;
+}
