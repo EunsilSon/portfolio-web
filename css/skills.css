@@ -10,23 +10,30 @@
 }
 
 #skills_inner {
-  width:1200px;
-  height:1200px;
-  margin:0 auto;
+  width : 100%;
+  max-width: 71.25rem;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  height: 75rem;
   text-align: center;
-  background: #FFD26D;
 }
 
 .skills_box {
   display: inline-table;
   width: 300px;
-  margin: 15px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  margin : 0 0 40px 50px;
+  padding : 10px 0 30px 0;
   text-align: center;
   border-radius: 30px;
   box-shadow: 20px 20px 20px -10px orange;
   background-color: white;
+}
+
+.skills_main_box {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    height: calc(100% - (7.5rem + 1px));
 }
 
 .skills_img {
