@@ -10,61 +10,47 @@
 }
 
 #about_inner {
-  width:1200px;
-  height:700px;
+  width:1400px;
+  height:800px;
   margin:0 auto;
+  text-align: center;
   background: #E7E6E6;
 }
 
 #title {
-  text-align: center;
-  text-decoration: underline;
   font-size: 35px;
   padding: 70px;
 }
 
-#huge_box {
-  width: 1200px;
-  height: 400px;
-  display: table-cell;
-  vertical-align: middle;
+#main_box {
+  width: 1300px;
+  padding: 50px;
   border-radius: 30px;
-  box-shadow: 20px 20px 20px -10px gray;
+  box-shadow: 20px 20px 20px -10px grey;
   background-color: white;
 }
 
-.main_box {
-  display: flex;
-  justify-content: center;
-
-}
-
 .sub_box {
-  display: inline-block;
+  display: inline-flex;
   width: 310px;
-  margin: 40px 0px 40px 50px;
+  margin: 40px;
 }
 
-.text_box {
-  display: inline-block;
-  position: relative;
-  bottom: 23px;
-  left: 25px;
-}
-
-#text_school {
-  display: inline-block;
-  position: relative;
-  bottom: 2px;
-  left: 25px;
-}
-
-.text {
+.text1 {
   font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.text2 {
   font-size: 20px;
 }
 
+.text_box {
+  text-align: left;
+  margin-left: 40px;
+}
+
 .img {
-  width: 80px;
-  height: 80px;
+  width: 25%;
 }
