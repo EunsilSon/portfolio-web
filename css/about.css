@@ -10,21 +10,16 @@
 }
 
 #about_inner {
-  width:1400px;
-  height:800px;
+  width:1300px;
+  height: 700px;
   margin:0 auto;
   text-align: center;
   background: #E7E6E6;
 }
 
-#title {
-  font-size: 35px;
-  padding: 70px;
-}
-
 #main_box {
-  width: 1300px;
-  padding: 50px;
+  width: 1240px;
+  padding: 30px;
   border-radius: 30px;
   box-shadow: 20px 20px 20px -10px grey;
   background-color: white;
