@@ -26,3 +26,81 @@
   border-radius: 30px;
   background-color: white;
 }
+
+.projects_title_box {
+  padding-bottom: 20px;
+}
+
+.projects_title_txt {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.projects_time_people {
+  font-size: 15px;
+  color: gray;
+}
+
+.projects_comment_box {
+  width: 470px;
+  float: right;
+  text-align: left;
+  margin-right: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px gray solid;
+}
+
+.projects_comment1 {
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.projects_comment2 {
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.projects_issue {
+  text-align: left;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.projects_img {
+  width: 500px;
+  height: 600px;
+  float: left;
+}
+
+.projects_info_box {
+  width: 470px;
+  margin-top: 15px;
+  padding-right: 30px;
+  height: 300px;
+  float: right;
+  text-align: left;
+}
+
+.projects_info1 {
+  width: 120px;
+  display: inline-table;
+  text-align: left;
+  font-weight: bold;
+}
+
+.projects_info2 {
+  width: 200px;
+  display: inline-table;
+  text-align: left;
+}
+
+.small_txt {
+  display: block;
+  padding-top: 5px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(255, 0, 0, 0.63);
+}
