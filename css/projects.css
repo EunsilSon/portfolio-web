@@ -11,8 +11,8 @@
 
 #projects_inner {
   width: 1200px;
-  height: 950px;
   margin: auto;
+  padding-bottom: 50px;
   text-align: center;
   background: #668CD0;
 }
@@ -21,6 +21,7 @@
   width: 1000px;
   height: 700px;
   margin: auto;
+  margin-bottom: 50px;
   box-shadow: 20px 20px 20px -10px rgb(76 99 149);
   border-radius: 30px;
   background-color: white;
