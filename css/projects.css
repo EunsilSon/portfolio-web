@@ -19,7 +19,6 @@
 
 .projects_main_box {
   width: 1000px;
-  height: 700px;
   margin: auto;
   margin-bottom: 50px;
   box-shadow: 20px 20px 20px -10px rgb(76 99 149);
@@ -39,68 +38,94 @@
 }
 
 .projects_time_people {
-  font-size: 15px;
+  font-size: 14px;
   color: gray;
 }
 
+.projects_main_contents_box {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.projects_comment {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
 .projects_comment_box {
-  width: 470px;
-  float: right;
-  text-align: left;
-  margin-right: 30px;
-  padding-bottom: 10px;
+  width : 410px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.projects_comment_box_bottom_line {
+  width : 410px;
+  margin-bottom: 10px;
   border-bottom: 1px gray solid;
-}
-
-.projects_comment1 {
-  text-align: left;
-  padding-bottom: 15px;
-}
-
-.projects_comment2 {
-  text-align: left;
-  padding-bottom: 15px;
 }
 
 .projects_issue {
   text-align: left;
   padding-bottom: 15px;
   font-weight: bold;
+  font-size: 14px;
+}
+
+.projects_img_box {
+  width : 530px;
 }
 
 .projects_img {
-  width: 500px;
-  height: 600px;
-  float: left;
+  width: 430px;
+  padding: 10px;
 }
 
 .projects_info_box {
-  width: 470px;
-  margin-top: 15px;
-  padding-right: 30px;
-  height: 300px;
-  float: right;
+  float : right;
+  width : 500px;
+  display: flex;
   text-align: left;
+  font-size: 14px;
+  line-height: 23px;
 }
 
 .projects_info1 {
-  width: 120px;
-  display: inline-table;
-  text-align: left;
+  width : 105px;
+  display : inline-block;
+  font-size: 14px;
+  line-height: 23px;
   font-weight: bold;
+  text-align: left;
+  margin-top: 10px;
 }
 
 .projects_info2 {
-  width: 200px;
-  display: inline-table;
+  width: 290px;
+  display: inline-block;
   text-align: left;
+  font-size: 14px;
+  line-height: 23px;
+  margin-top: 10px;
+}
+
+.projects_info1 p {
+  padding-bottom: 10px;
+}
+
+.projects_info2 p {
+  padding-bottom : 10px;
 }
 
 .small_txt {
-  display: block;
-  padding-top: 5px;
-  text-align: right;
+  float: right;
   font-size: 12px;
   font-weight: bold;
-  color: rgba(255, 0, 0, 0.63);
+  color: darkgray;
+}
+
+.highlight_txt {
+  display: inline;
+  font-weight: bold;
+  color: rgb(255, 72, 72);
 }
