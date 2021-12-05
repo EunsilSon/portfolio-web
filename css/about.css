@@ -15,12 +15,14 @@
   margin:0 auto;
   text-align: center;
   background: #E7E6E6;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #main_box {
-  width: 1240px;
+  width: 1200px;
   padding: 30px;
-  border-radius: 30px;
+  margin: auto;
+  border-radius: 10px;
   box-shadow: 20px 20px 20px -10px grey;
   background-color: white;
 }

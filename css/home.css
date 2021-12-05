@@ -15,31 +15,33 @@
 }
 
 #home_inner {
-  width:1200px;
-  height:930px;
-  margin:0 auto;
+  width: 1200px;
+  height: 930px;
+  margin: auto;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
-#img {
-  width: 400px;
-  margin-top: 60px;
-  margin-left: 200px;
+#home_main_box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
 }
 
-#text1 {
-  width: 100px;
-  position: relative;
-  bottom: 360px;
-  left: 800px;
+#home_img {
+  width: 30%;
+  margin-top: 170px;
+  margin-left: 230px;
+}
+
+#home_txt {
+  width: 30%;
+  margin-top: 420px;
+  margin-left: 110px;
+  font-weight: bold;
+}
+
+#home_txt b {
   color: rgb(79, 129, 238);
-}
-
-#text2 {
-  width: 60px;
-  position: relative;
-  bottom: 384px;
-  left: 860px;
-  font-size: 18.3px;
 }
 
 #btn {
@@ -49,7 +51,7 @@
   text-align: center;
   margin: auto;
   font-weight: bold;
+  border-radius: 20px;
   color: white;
-  border-radius: 30px 30px;
   background-color: rgb(255, 197, 36);
 }

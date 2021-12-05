@@ -10,7 +10,7 @@
 }
 
 #skills_inner {
-  width : 1200px;
+  width : 1300px;
   height: 70rem;
   max-width: 71.25rem;
   margin: auto;
@@ -22,9 +22,10 @@
   width: 300px;
   margin-bottom: 50px;
   text-align: center;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: 20px 20px 20px -10px orange;
   background-color: white;
+  font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .skills_main_box {
@@ -41,11 +42,11 @@
 }
 
 .skills_text {
-  width: 210px;
+  width: 250px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   margin: auto;
-  padding: 20px;
-  font-weight: bold;
-  font-size: 25px;
   border-bottom: rgb(255, 134, 35) 1px solid;
+  font-size: 25px;
   color: rgb(255, 134, 35);
 }

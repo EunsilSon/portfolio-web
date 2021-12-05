@@ -10,11 +10,31 @@
 }
 
 #projects_inner {
-  width: 1200px;
+  width: 1300px;
   margin: auto;
   padding-bottom: 50px;
   text-align: center;
   background: #668CD0;
+}
+
+.projects_title_box {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.projects_time_people {
+  padding-top: 5px;
+  font-size: 14px;
+  color: gray;
+}
+
+.projects_main_contents_box {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .projects_main_box {
@@ -22,29 +42,8 @@
   margin: auto;
   margin-bottom: 50px;
   box-shadow: 20px 20px 20px -10px rgb(76 99 149);
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: white;
-}
-
-.projects_title_box {
-  padding-bottom: 20px;
-}
-
-.projects_title_txt {
-  padding-top: 20px;
-  padding-bottom: 5px;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.projects_time_people {
-  font-size: 14px;
-  color: gray;
-}
-
-.projects_main_contents_box {
-    display: flex;
-    padding-bottom: 10px;
 }
 
 .projects_comment {
@@ -55,21 +54,14 @@
 .projects_comment_box {
   width : 410px;
   padding: 10px;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 15px;
+  line-height: 23px;
 }
 
 .projects_comment_box_bottom_line {
   width : 410px;
   margin-bottom: 10px;
   border-bottom: 1px gray solid;
-}
-
-.projects_issue {
-  text-align: left;
-  padding-bottom: 15px;
-  font-weight: bold;
-  font-size: 14px;
 }
 
 .projects_img_box {
@@ -93,8 +85,6 @@
 .projects_info1 {
   width : 105px;
   display : inline-block;
-  font-size: 14px;
-  line-height: 23px;
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
@@ -104,8 +94,6 @@
   width: 290px;
   display: inline-block;
   text-align: left;
-  font-size: 14px;
-  line-height: 23px;
   margin-top: 10px;
 }
 
@@ -131,5 +119,6 @@
 }
 
 .link {
+  font-size: 14px;
   color: rgb(0, 110, 255);
 }
