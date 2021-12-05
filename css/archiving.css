@@ -10,11 +10,12 @@
 }
 
 #archiving_inner {
-  width: 1200px;
+  width: 1300px;
   height: 700px;
   margin: auto;
   text-align: center;
   background: #A9D18E;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .archiving_box {
@@ -24,7 +25,7 @@
   margin: 30px;
   padding-top: 10px;
   padding-bottom: 20px;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: 20px 20px 20px -10px #78a15c;
   background-color: white;
 }
