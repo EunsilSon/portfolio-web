@@ -5,17 +5,12 @@
   text-decoration: none;
 }
 
-#unused_box {
-  width:1200px;
-  height:80px;
-}
-
 #home_box {
   background: #FFF;
 }
 
 #home_inner {
-  width: 1200px;
+  width: 1300px;
   height: 930px;
   margin: auto;
   font-family: 'Noto Sans KR', sans-serif;
@@ -24,20 +19,25 @@
 #home_main_box {
   display: flex;
   flex-direction: row;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 #home_img {
-  width: 30%;
-  margin-top: 170px;
-  margin-left: 230px;
+  width: 400px;
+  margin-right: 30px;
+}
+
+#home_img_box {
+  width: 200px;
+  margin: auto;
+  padding-top: 130px;
 }
 
 #home_txt {
-  width: 30%;
-  margin-top: 420px;
-  margin-left: 110px;
+  width: 500px;
   font-weight: bold;
+  margin-top: 400px;
+  margin-left: 130px;
 }
 
 #home_txt b {

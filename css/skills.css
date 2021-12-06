@@ -10,29 +10,34 @@
 }
 
 #skills_inner {
-  width : 1300px;
-  height: 70rem;
-  max-width: 71.25rem;
+  width: 1300px;
+  height: 1100px;
+  text-align: center;
   margin: auto;
-  text-align: center;
-}
-
-.skills_box {
-  display: inline-table;
-  width: 300px;
-  margin-bottom: 50px;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 20px 20px 20px -10px orange;
-  background-color: white;
-  font-family: 'IBM Plex Sans KR', sans-serif;
+  background: #FFD26D;
 }
 
 .skills_main_box {
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  height: calc(100% - (7.5rem + 1px));
+  width: 80%;
+  margin: auto;
+}
+
+.skills_sub_box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills_item_box {
+  width: 300px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px -5px orange;
+  background-color: white;
+  font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .skills_img {
