@@ -21,7 +21,16 @@
   padding-top: 30px;
   padding-bottom: 10px;
   font-size: 30px;
+}
+
+.projects_title_box p:nth-child(1) {
   font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.projects_title_box p:nth-child(2) {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .projects_time_people {
