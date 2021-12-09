@@ -5,6 +5,11 @@
   text-decoration: none;
 }
 
+#archiving_unused_box {
+  height: 80px;
+  background: #A9D18E;
+}
+
 #archiving_box {
   background: #A9D18E;
 }

@@ -5,6 +5,11 @@
   text-decoration: none;
 }
 
+#skills_unused_box {
+  height: 80px;
+  background: #FFD26D;
+}
+
 #skills_box {
   background: #FFD26D;
 }
