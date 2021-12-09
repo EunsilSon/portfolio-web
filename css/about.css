@@ -5,6 +5,11 @@
   text-decoration: none;
 }
 
+#about_unused_box {
+  height: 80px;
+  background: #E7E6E6;
+}
+
 #about_box {
   background: #E7E6E6; 
 }

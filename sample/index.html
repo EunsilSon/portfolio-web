@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> FMW - ONEPAGE </title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="menu_box">
+		<div class="menu_inner">
+			<div class="logo"><a href="#section01">FMW - ONEPAGE</a></div>
+			<ul>
+				<li><a href="#section01">MENU01</a></li>
+				<li><a href="#section02">MENU02</a></li>
+				<li><a href="#section03">MENU03</a></li>
+				<li><a href="#section04">MENU04</a></li>
+				<li><a href="#section05">MENU05</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="section01"></div>
+	<div id="section02"></div>
+	<div id="section03"></div>
+	<div id="section04"></div>
+	<div id="section05"></div>
+	<script>
+		/* 메뉴바 FIXED */
+		if (jQuery(window).width() > 0) {
+		jQuery(window).on("scroll",function(ev){
+			if(jQuery(window).scrollTop() > 80 ) { /* 해당 높이를 벗어나면 fixed 클래스 추가 */
+				jQuery('.menu_box').addClass('fixed');
+			}
+			else{
+				jQuery('.menu_box').removeClass('fixed');
+			}
+			return false;
+		});
+		}
+		/* 해당위치로 스크롤링 */
+		$(function(){
+      var headerHight = 80;
+        $('a[href^=#]').click(function() {
+          var speed = 500; /* 스크롤 속도 */
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top - headerHight;;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+        });
+		});
+	</script>
+</body>
+</html>
