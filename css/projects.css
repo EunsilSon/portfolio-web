@@ -5,11 +5,6 @@
   text-decoration: none;
 }
 
-#projects_unused_box {
-  height: 80px;
-  background: #668CD0;
-}
-
 #projects_box {
   background: #668CD0;
 }
@@ -17,6 +12,7 @@
 #projects_inner {
   width: 1300px;
   margin: auto;
+  padding-top: 80px;
   padding-bottom: 50px;
   text-align: center;
   background: #668CD0;
