@@ -32,10 +32,14 @@
   background-color: white;
 }
 
-.archiving_img {
+.archiving_img_1 {
   width: 60%;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.archiving_img_2 {
+  width: 60%;
 }
 
 .link {
