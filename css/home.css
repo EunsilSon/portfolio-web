@@ -5,11 +5,8 @@
   text-decoration: none;
 }
 
-body {
-  background: #FFF;
-}
-
 #home {
+  overflow: hidden;
   margin: auto;
   font-family: 'Noto Sans KR', sans-serif;
 }
@@ -21,6 +18,7 @@ body {
   align-items: center; /* 세로 정렬 */
   padding-top: 155px;
   margin-bottom: 80px;
+  background: #FFF;
 }
 
 #img {

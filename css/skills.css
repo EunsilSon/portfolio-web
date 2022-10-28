@@ -5,30 +5,20 @@
   text-decoration: none;
 }
 
-#skills_box {
-  background: #FFD26D;
-}
-
 #skills_inner {
-  width: 1300px;
-  text-align: center;
-  margin: auto;
-  padding-top: 80px;
-  background: #FFD26D;
+  overflow: hidden;
+    text-align: center;
+    padding: 80px 80px;
+    background: #FFD26D;
 }
 
 .skills_main_box {
   display: flex;
-  width: 80%;
-  margin: auto;
+    justify-content: center;
 }
 
 .skills_sub_box {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px;
 }
 
 .skills_item_box {

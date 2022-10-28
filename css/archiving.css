@@ -5,15 +5,9 @@
   text-decoration: none;
 }
 
-
-#archiving_box {
-  background: #A9D18E;
-}
-
 #archiving_inner {
-  width: 1300px;
+  overflow: hidden;
   height: 660px;
-  margin: auto;
   padding-top: 80px;
   text-align: center;
   background: #A9D18E;
