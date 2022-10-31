@@ -17,12 +17,9 @@
     justify-content: center;
 }
 
-.skills_sub_box {
-  margin: 20px;
-}
-
 .skills_item_box {
   width: 300px;
+  margin: 20px;
   margin-bottom: 50px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px -5px orange;

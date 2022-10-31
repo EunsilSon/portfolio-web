@@ -75,11 +75,12 @@
 
 .projects_img {
   width: 430px;
+  margin-bottom: 5px;
 }
 
 .small_txt {
   float: right;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   color: darkgray;
 }
