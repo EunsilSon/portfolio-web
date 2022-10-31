@@ -1,44 +1,51 @@
 <head>
   <link rel="stylesheet" href="../css/projects.css">
 </head>
+
 <body>
   <a name="projects"></a>
-    <div id="projects_inner">
-      <h1 id="title">PROJECTS</h1>
-      <div class="projects_main_box">
-        <div class="projects_title_box">
-          <p class="projects_title_txt">게스트북 : 방명록 웹 사이트</>
-          <p class="projects_time_people">2022.06 - 2022.07 (1人 개인 프로젝트)</p>
-        </div>
-        <div class="projects_main_contents_box">
-          <div class="projects_img_box">
-            <img class="projects_img" src="" />
-            <img class="projects_img" src="" />
-          </div>
-        <div class="projects_comment_box">
+  <div id="projects_inner">
+    <header id="title">PROJECTS</header>
+
+    <section class="projects_main_box">
+      <header class="projects_title_box">
+        <p class="projects_title_txt">게스트북 : 방명록 웹 사이트</>
+        <p class="projects_time_people">2022.06 - 2022.07 (1人 개인 프로젝트)</p>
+      </header>
+      <div class="projects_main_contents_box">
+        <article class="projects_img_box">
+          <img class="projects_img" src="..\img\projects_guestbook_1.png" />
+          <img class="projects_img" src="..\img\projects_guestbook_2.png" />
+          <img class="projects_img" src="..\img\projects_guestbook_3.png" />
+        </article>
+        <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
-              메세지를 남길 수 있는 <b>방명록 목적의 게스트북</b> 입니다.<br><br>실제 운영 가능한 서비스가 아닌 공부 목적의 프로젝트 입니다.
-              졸업 작품 프로젝트에서 미숙하게 사용했던 기술을 제대로 사용해보기 위해 CRUD에 초점을 두었습니다.
+              메세지를 남길 수 있는 <b>방명록 목적의 게스트북</b> 입니다.<br>실제 운영 가능한 서비스가 아닌 공부 목적의 프로젝트 입니다.<br>
+              졸업 작품 프로젝트에서 미숙하게 사용했던 기술을 제대로 사용해보기 위해 <span class="highlight_txt">CRUD</span>에 초점을 두었습니다.
             </div>
             <div class="projects_comment">
               FE와 BE 둘 다 개발하며 <span class="highlight_txt">REST API의 사용법</span>을 더 숙지한 계기가 되었습니다.
-              JPA의 Hibernate로 DB 작업을 하면서 <span class="highlight_txt">트랜잭션의 중요성과 영속성 문제</span>를 찾아보게 되었습니다. 서버는 클라우드 서버에 Docker로 배포 했습니다.<br><br>발생한 이슈 및 해결 방법과 개발 회고록이 공부 블로그에 기록되어 있습니다.
+              JPA의 Hibernate로 DB 작업을 하면서 <span class="highlight_txt">트랜잭션의 중요성과 영속성 문제</span>를 찾아보게 되었습니다. 서버는 클라우드 서버에
+              Docker로 배포 했습니다.<br><br>발생한 이슈 및 해결 방법과 개발 회고록이 공부 블로그에 기록되어 있습니다.
             </div>
           </div>
 
-          <div class="projects_info_box">
+          <article class="projects_info_box">
             <div class="projects_info">
               <p>▸ 주요 기능</p>
               <p>모든 카드 보기, 내가 쓴 카드 보기, 카드 및 댓글 작성 · 수정 · 삭제 · 조회</p>
             </div>
             <div class="projects_info">
               <p>▸ GitHub</p>
-              <p><a class="link" href="https://github.com/EunsilSon/guest-book" target="_blank" >https://github.com/EunsilSon/guest-book</a></p>
+              <p><a class="link" href="https://github.com/EunsilSon/guest-book"
+                  target="_blank">https://github.com/EunsilSon/guest-book</a></p>
             </div>
             <div class="projects_info">
               <p>▸ 회고록</p>
-              <p><a class="link" href="https://velog.io/@eunsilson/%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B2%8C%EC%8A%A4%ED%8A%B8%EB%B6%81-%ED%9A%8C%EA%B3%A0%EB%A1%9D" target="_blank" >https://velog.io/@eunsilson</a></p>
+              <p><a class="link"
+                  href="https://velog.io/@eunsilson/%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B2%8C%EC%8A%A4%ED%8A%B8%EB%B6%81-%ED%9A%8C%EA%B3%A0%EB%A1%9D"
+                  target="_blank">https://velog.io/@eunsilson</a></p>
             </div>
             <div class="projects_info">
               <p>▸ Front-end</p>
@@ -52,38 +59,42 @@
               <p>▸ Deployment</p>
               <p>AWS (EC2, RDS)</p>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+          </article>
+        </article>
+    </section>
 
-      <div class="projects_main_box">
-        <div class="projects_title_box">
-          <p class="projects_title_txt">포트폴리오 웹 페이지</>
-          <p class="projects_time_people">2021.11 - 2021.12 (1人 개인 프로젝트)</p>
-        </div>
-        <div class="projects_main_contents_box">
-          <div class="projects_img_box">
-            <img class="projects_img" src="..\img\projects_6_portfolio(2).png" />
-            <img class="projects_img" src="..\img\projects_6_portfolio(1).png" />
-          </div>
-        <div class="projects_comment_box">
+    <section class="projects_main_box">
+      <header class="projects_title_box">
+        <p class="projects_title_txt">포트폴리오 웹 페이지</>
+        <p class="projects_time_people">2021.11 - 2021.12 (1人 개인 프로젝트)</p>
+      </header>
+      <div class="projects_main_contents_box">
+        <article class="projects_img_box">
+          <img class="projects_img" src="..\img\projects_6_portfolio(2).png" />
+          <img class="projects_img" src="..\img\projects_6_portfolio(1).png" />
+        </article>
+        <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
-              지금 보고 계시는 <b>포트폴리오 목적의 웹 페이지 입니다.</b> 프론트 엔드 개발 경험이 없어 기본부터 배워보고자 <span class="highlight_txt">순수 HTML과 CSS</span>로 제작하였습니다.
+              지금 보고 계시는 <b>포트폴리오 웹 사이트 입니다.</b> 프론트 엔드 개발 경험이 없어 기본부터 배워보고자 순수 HTML과 CSS로 제작하였습니다.
             </div>
             <div class="projects_comment">
-              <span class="highlight_txt">아파치 HTTP 서버</span>를 설치해 웹을 배포했으며, 현재 서버는 닫힌 상태입니다.
+              <span class="highlight_txt">section 태그를 사용</span>해 HTML 문서를 <span class="highlight_txt">구조적으로 설계</span>했고,
+              레이아웃 배치를 위해서 <span class="highlight_txt">CSS flex</span>를 주로 사용했습니다.
+            </div>
+            <div class="projects_comment">
+              <span class="highlight_txt">아파치 HTTP 서버</span>를 설치해 웹을 배포했었으며, 현재 서버는 닫힌 상태입니다.
             </div>
           </div>
-          <div class="projects_info_box">
+          <article class="projects_info_box">
             <div class="projects_info">
               <p>▸ 주요 기능</p>
               <p>개인 정보, 보유 기술, GitHub · Blog 링크, 개발 프로젝트 설명</p>
             </div>
             <div class="projects_info">
               <p>▸ GitHub</p>
-              <p><a class="link" href="https://github.com/EunsilSon/personal-portfolio" target="_blank" >https://github.com/EunsilSon/personal-portfolio</a></p>
+              <p><a class="link" href="https://github.com/EunsilSon/personal-portfolio"
+                  target="_blank">https://github.com/EunsilSon/personal-portfolio</a></p>
             </div>
             <div class="projects_info">
               <p>▸ Front-end</p>
@@ -93,258 +104,247 @@
               <p>▸ Deployment</p>
               <p>AWS</p>
             </div>
-          </div>
-        </div>
-        </div>
+          </article>
+        </article>
       </div>
+    </section>
 
-      <div class="projects_main_box">
-        <div class="projects_title_box">
-          <p>One-Pass</p>
-          <p class="projects_time_people">2021.03 - 2021.09 (5人 팀 프로젝트)</p>
-        </div>
-        <div class="projects_main_contents_box">
-        <div class="projects_img_box">
+    <section class="projects_main_box">
+      <header class="projects_title_box">
+        <p>One-Pass</p>
+        <p class="projects_time_people">2021.03 - 2021.09 (5人 팀 프로젝트)</p>
+      </header>
+      <div class="projects_main_contents_box">
+        <article class="projects_img_box">
           <img class="projects_img" src="..\img\projects_1_main.png" />
           <img class="projects_img" src="..\img\projects_1_server.png" />
           <img class="projects_img" src="..\img\projects_1_dockerhub.png" />
-        </div>
-        <div class="projects_comment_box">
+        </article>
+        <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
-              <b>AI 기반의 문제 풀이를 제공하는 One-Pass</b> 입니다. CCNA는 문제 은행 식으로 출제되는 경우가 많은 시험입니다. 문제 은행식의 CCNA 시험을 대비하기 위해 개발하게 되었습니다.
+              <b>AI 기반의 문제 풀이를 제공하는 One-Pass</b> 입니다. CCNA는 문제 은행 식으로 출제되는 경우가 많은 시험입니다. 문제 은행식의 CCNA 시험을 대비하기 위해 개발하게
+              되었습니다.
             </div>
             <div class="projects_comment">
-              BE는 <span class="highlight_txt">서비스들이 여러 개로 분산</span>되어 Eureka 서버를 기준으로 연결되는 <span class="highlight_txt">MSA로 설계</span>되었습니다.
+              BE는 <span class="highlight_txt">서비스들이 여러 개로 분산</span>되어 Eureka 서버를 기준으로 연결되는 <span
+                class="highlight_txt">MSA로 설계</span>되었습니다.
               분산된 서비스들을 하나의 API로 상호작용하는 과정에서 <span class="highlight_txt">라우팅과 로드밸런싱의 개념</span>을 알게되었습니다.
             </div>
             <div class="projects_comment">
-              분산된 서비스들을 독립적으로 <span class="highlight_txt">자동 테스트 및 배포</span>를 진행하기 위해 <span class="highlight_txt">CI/CD</span>를 구현했습니다.
-              자동 빌드를 위해 <span class="highlight_txt">Jenkins와 GitHub를 연결</span>하였고, 자동 배포를 위해<span class="highlight_txt"> Docker</span>를 사용했습니다.
+              분산된 서비스들을 독립적으로 <span class="highlight_txt">자동 테스트 및 배포</span>를 진행하기 위해 <span
+                class="highlight_txt">CI/CD</span>를 구현했습니다.
+              자동 빌드를 위해 <span class="highlight_txt">Jenkins와 GitHub를 연결</span>하였고, 자동 배포를 위해<span class="highlight_txt">
+                Docker</span>를 사용했습니다.
             </div>
           </div>
-          <div class="projects_info_box">
-
+          <article class="projects_info_box">
             <div class="projects_info">
               <p>▸ 주요 기능</p>
               <p>원하는 개수만큼 문제 풀기, 문제의 핵심 키워드 보기, 포인트 기능</p>
             </div>
-
             <div class="projects_info">
               <p>▸ GitHub</p>
-              <p><a class="link" href="https://github.com/Team-Rev" target="_blank" >https://github.com/Team-Rev</a></p>
+              <p><a class="link" href="https://github.com/Team-Rev" target="_blank">https://github.com/Team-Rev</a></p>
             </div>
-
             <div class="projects_info">
               <p>▸ Front-end</p>
               <p>Flutter, React, Redux</p>
             </div>
-
             <div class="projects_info">
               <p>▸ Back-end</p>
               <p><b>Spring Boot</b>, Python, TensorFlow, Selenium</p>
             </div>
-
             <div class="projects_info">
               <p>▸ Deployment</p>
               <p><b>AWS, GCP, Docker, Jenkins, MariaDB</b></p>
             </div>
-          </div>
-
+          </article>
           <div class="small_txt">
             ※ 진하게 표시된 부분이 제가 사용한 기술입니다.
           </div>
-        </div>
-        </div>
+        </article>
       </div>
+    </section>
 
-      <div class="projects_main_box">
-        <div class="projects_title_box">
-          <p class="projects_title_txt">Navo Ground</>
-          <p class="projects_time_people">2020.09 - 2020.11 (5人 팀 프로젝트)</p>
-        </div>
-        <div class="projects_main_contents_box">
-        <div class="projects_img_box">
+    <section class="projects_main_box">
+      <header class="projects_title_box">
+        <p class="projects_title_txt">Navo Ground</>
+        <p class="projects_time_people">2020.09 - 2020.11 (5人 팀 프로젝트)</p>
+      </header>
+      <div class="projects_main_contents_box">
+        <article class="projects_img_box">
           <img class="projects_img" src="..\img\projects_2_navo.png" />
-        </div>
-        <div class="projects_comment_box">
+        </article>
+        <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
               <b>실시간 멀티 2D 슈팅 게임입니다. 최대 5명이 동시 접속하여 함께 게임을 할 수 있습니다.</b>
               여러 대의 클라이언트가 하나의 서버에 접속해 실시간으로 소통하는 것을 이해할 수 있었던 프로젝트 입니다.
             </div>
             <div class="projects_comment">
-              서버와 클라이언트의 소켓을 통한 연결의 한계와 스레드를 사용한 데이터 관리의 불편함을 느끼게 되었습니다.
+              서버와 클라이언트의 소켓을 통한 연결의 한계와 <span class="highlight_txt">스레드</span>를 사용한 데이터 관리의 불편함을 느끼게 되었습니다.
             </div>
             <div class="projects_comment">
-              기존의 구조였던 Blocking 방식이 실시간 게임에 맞지 않다는 것을 깨닫고 <span class="highlight_txt">Non-Blocking 방식의 Netty 서버 프레임워크</span>를 사용했습니다.
+              기존의 구조였던 Blocking 방식이 실시간 게임에 맞지 않다는 것을 깨닫고 <span class="highlight_txt">Non-Blocking 방식의 Netty 서버
+                프레임워크</span>를 사용했습니다.
             </div>
           </div>
-          <div class="projects_info_box">
-
+          <article class="projects_info_box">
             <div class="projects_info">
               <p>▸ 주요 기능</p>
               <p>상하좌우 이동, 무기 습득, 공격, 무기 버리기, 미니맵 보기</p>
             </div>
-
             <div class="projects_info">
               <p>▸ GitHub</p>
-              <p><a class="link" href="https://github.com/Team-Navo" target="_blank" >https://github.com/Team-Navo</a></p>
+              <p><a class="link" href="https://github.com/Team-Navo" target="_blank">https://github.com/Team-Navo</a>
+              </p>
             </div>
-
             <div class="projects_info">
               <p>▸ Front-end</p>
               <p>lib Gdx</p>
             </div>
-
             <div class="projects_info">
               <p>▸ Back-end</p>
               <p><b>Java, JDBC, Netty</b></p>
             </div>
-
             <div class="projects_info">
               <p>▸ Deployment</p>
               <p><b>MySQL</b></p>
             </div>
-
-          </div>
+          </article>
           <div class="small_txt">
             ※ 진하게 표시된 부분이 제가 사용한 기술입니다.
           </div>
-        </div>
-        </div>
+        </article>
       </div>
+    </section>
 
-      <div class="projects_main_box">
-        <div class="projects_title_box">
-          <p class="projects_title_txt">Linux 환경의 JSP 웹 사이트 구축</>
-          <p class="projects_time_people">2020.12 (1人 서버 구축 과제)</p>
-        </div>
-        <div class="projects_main_contents_box">
-        <div class="projects_img_box">
+    <section class="projects_main_box">
+      <header class="projects_title_box">
+        <p class="projects_title_txt">Linux 환경의 JSP 웹 사이트 구축</>
+        <p class="projects_time_people">2020.12 (1人 서버 구축 과제)</p>
+      </header>
+      <div class="projects_main_contents_box">
+        <article class="projects_img_box">
           <img class="projects_img" src="..\img\projects_3_linux.png" />
-        </div>
-        <div class="projects_comment_box">
+        </article>
+        <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
               <b>‘Linux 환경에서 JDK+TOMCAT+MYSQL 을 연동한 사이트 구축’ 과제를 받아 수행했습니다.</b>
-              Ubuntu 운영체제의 터미널에서 작업을 진행했고 <span class="highlight_txt">JDK, Tomcat8, MySQL을 설치 및 연동</span>해 웹 서버를 구축했습니다.<br>
-            샘플 페이지 코드를 실행시켜 JDBC 연동, 페이지 실행 및 DB 접근 테스트를 진행했습니다.
+              Ubuntu 운영체제의 터미널에서 작업을 진행했고 <span class="highlight_txt">JDK, Tomcat8, MySQL을 설치 및 연동</span>해 웹 서버를
+              구축했습니다.<br>
+              샘플 페이지 코드를 실행시켜 JDBC 연동, 페이지 실행 및 DB 접근 테스트를 진행했습니다.
             </div>
             <div class="projects_comment">
-              CMD 환경에 익숙해지고 리눅스의 폴더 구조를 몸소 느낄 수 있었던 과제입니다.<br>
-            VMware에서 가상 OS를 설치해 진행했으며 '일단 부딪혀보자' 라는 생각에 여러 명령들을 입력해보고 무언가 꼬였다는 느낌이 들면 가상 OS를 재설치하여 처음부터 다시 작업해보면서 리눅스에 흥미를 갖게되었습니다.
+              CMD 환경에 익숙해지고 <span class="highlight_txt">리눅스</span>의 폴더 구조를 몸소 느낄 수 있었던 과제입니다.<br>
+              VMware에서 가상 OS를 설치해 진행했으며 '일단 부딪혀보자' 라는 생각에 여러 명령들을 입력해보고 무언가 꼬였다는 느낌이 들면 가상 OS를 재설치하여 처음부터 다시 작업해보면서 리눅스에
+              흥미를 갖게되었습니다.
             </div>
           </div>
-          <div class="projects_info_box">
-
+          <article class="projects_info_box">
             <div class="projects_info">
               <p>▸ 주요 기능</p>
               <p>로그인, 게시글 생성 · 수정 · 삭제</p>
             </div>
-
             <div class="projects_info">
               <p>▸ Deployment</p>
               <p>Linux, Tomcat8, MySQL</p>
             </div>
-          </div>
-        </div>
-        </div>
+          </article>
+        </article>
       </div>
+    </section>
 
-      <div class="projects_main_box">
-        <div class="projects_title_box">
-          <p class="projects_title_txt">Simpletron : 미니 기계어 인터프리터</>
-          <p class="projects_time_people">2020.04 (1人 코딩 과제)</p>
-        </div>
-        <div class="projects_main_contents_box">
-        <div class="projects_img_box">
+    <section class="projects_main_box">
+      <header class="projects_title_box">
+        <p class="projects_title_txt">Simpletron : 미니 기계어 인터프리터</>
+        <p class="projects_time_people">2020.04 (1人 코딩 과제)</p>
+      </header>
+      <div class="projects_main_contents_box">
+        <article class="projects_img_box">
           <img class="projects_img" src="..\img\projects_4_sml.png" />
-        </div>
-        <div class="projects_comment_box">
+        </article>
+        <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
               <b>'나만의 컴퓨터 만들기' 라는 코딩 과제를 받아 SML(Simpletron Machine Language) 로 작동되는 기계어 프로그램을 만들었습니다.</b>
               직접 만든 Simpletron으로 문제를 해결했습니다. 문제에 대한 자세한 내용은 아래 GitHub에 있습니다.
             </div>
             <div class="projects_comment">
-              <span class="highlight_txt">컴파일러와 인터프리터</span>의 차이를 알게된 과제입니다. 고급 프로그래밍 언어를 사용하면서 컴퓨터가 어떻게 이해해서 내가 원하는 대로 처리를 하는 지에 대한 관심을 가지게 되었습니다.
+              <span class="highlight_txt">컴파일러와 인터프리터의 차이</span>를 알게된 과제입니다. 고급 프로그래밍 언어를 사용하면서 컴퓨터가 어떻게 이해해서 내가 원하는 대로
+              처리를 하는 지에 대한 관심을 가지게 되었습니다.
             </div>
           </div>
-          <div class="projects_info_box">
-
+          <article class="projects_info_box">
             <div class="projects_info">
               <p>▸ 주요 기능</p>
               <p>기계어 프로그래밍</p>
             </div>
-
             <div class="projects_info">
               <p>▸ GitHub</p>
-              <p><a class="link" href="https://github.com/EunsilSon/simpletron-machine-language" target="_blank" >https://github.com/EunsilSon/simpletron-machine-language</a></p>
+              <p><a class="link" href="https://github.com/EunsilSon/simpletron-machine-language"
+                  target="_blank">https://github.com/EunsilSon/simpletron-machine-language</a></p>
             </div>
-
             <div class="projects_info">
               <p>▸ Back-end</p>
               <p>Java</p>
             </div>
-
-          </div>
-        </div>
+          </article>
+        </article>
       </div>
-    </div>
-      
-      <div class="projects_main_box">
-        <div class="projects_title_box">
-          <p class="projects_title_txt">2020 이브와 ICT : 스마트 제어 수직 형 스마트 팜</>
-          <p class="projects_time_people">2020.05 - 2020.11 (5人 팀 프로젝트)</p>
-        </div>
-        <div class="projects_main_contents_box">
-        <div class="projects_img_box">
+    </section>
+
+    <section class="projects_main_box">
+      <header class="projects_title_box">
+        <p class="projects_title_txt">2020 이브와 ICT : 스마트 제어 수직 형 스마트 팜</>
+        <p class="projects_time_people">2020.05 - 2020.11 (5人 팀 프로젝트)</p>
+      </header>
+      <div class="projects_main_contents_box">
+        <article class="projects_img_box">
           <img class="projects_img" src="..\img\projects_5_smartfarm(1).png" />
           <img class="projects_img" src="..\img\projects_5_smartfarm(2).png" />
-        </div>
-        <div class="projects_comment_box">
+        </article>
+        <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
               <b>2020 이브와 ICT 공모전에서 은상을 수상한 '수직 파이프 스마트팜' 입니다. </b>
-            사물인터넷(IoT) 을 통해 작물 성장에 필요한 데이터를 수집하여 장소와 날씨에 구애받지않으며 작물을 재배할 수 있는 ict를 활용한 영농 기술입니다.
-
+              사물인터넷(IoT) 을 통해 작물 성장에 필요한 데이터를 수집하여 장소와 날씨에 구애받지않으며 작물을 재배할 수 있는 ict를 활용한 영농 기술입니다.
             </div>
             <div class="projects_comment">
-              팀장을 맡아 전반적인 업무 총괄 및 보고서 작성을 맡았습니다. 스마트팜을 개발하며 팀원들과의 <span class="highlight_txt">의사소통과 협동심의 중요성</span>을 배웠습니다. 개개인이 여러 의견을 내고 원활한 소통을 통한 협동심이 큰 성과를 내기에 가장 좋은 거름이라는 것을 몸소 느꼈습니다.
-
+              팀장을 맡아 전반적인 업무 총괄 및 보고서 작성을 맡았습니다. 스마트팜을 개발하며 <span class="highlight_txt">팀원들과의 의사소통과 협동심의 중요성</span>을
+              배웠습니다. 개개인이 여러 의견을 내어 원활한 소통을 통한 협동심이 큰 성과를 내기에 가장 좋은 거름이라는 것을 몸소 느꼈습니다.
             </div>
             <div class="projects_comment">
-              개발 과정들을 문서화하며 <span class="highlight_txt">개발자에게 글쓰기 실력도 필요하다</span>는 것을 깨달았습니다. 상품을 출시하기 위해선 고객에게 우리의 개발품을 쉽게 설명할 수 있어야 합니다. 개발 언어를 비개발 언어로 바꿀 수 있는 능력이 필요했습니다.
+              <span class="highlight_txt">개발 과정들을 문서화</span>하는 과정에서 개발자에게 <span class="highlight_txt">글쓰기 실력</span>도
+              필요하다는 것을 깨달았습니다. 상품 출시를 위해 고객이 우리의 개발품을 이해할 수 있도록 개발 언어를 비 개발 언어로 바꿔 설명할 수 있어야 함을 알게 되었습니다. 개발의 마지막 단계인
+              문서화 과정까지 잘 해내 좋은 성과를 이뤄냈습니다.
             </div>
           </div>
-          <div class="projects_info_box">
-
+          <article class="projects_info_box">
             <div class="projects_info">
               <p>▸ 주요 기능</p>
               <p>재배기 실시간 모니터링 및 온·습도 현황, 조도 · pH · 물 수위 센서 </p>
             </div>
-
             <div class="projects_info">
               <p>▸ 제작 과정</p>
-              <p><a class="link" href="https://youtu.be/5QmqNbiOt_U" target="_blank" >https://youtu.be/5QmqNbiOt_U</a></p>
+              <p><a class="link" href="https://youtu.be/5QmqNbiOt_U" target="_blank">https://youtu.be/5QmqNbiOt_U</a>
+              </p>
             </div>
-
             <div class="projects_info">
               <p>▸ 완성작</p>
-              <p><a class="link" href="https://youtu.be/96AHTVAk0O0" target="_blank" >https://youtu.be/96AHTVAk0O0</a></p>
+              <p><a class="link" href="https://youtu.be/96AHTVAk0O0" target="_blank">https://youtu.be/96AHTVAk0O0</a>
+              </p>
             </div>
-
             <div class="projects_info">
               <p>▸ Front-end</p>
               <p>HTML, CSS</p>
             </div>
-
             <div class="projects_info">
               <p>▸ Back-end</p>
               <p><b>Arduino, Python</b></p>
             </div>
-
             <div class="projects_info">
               <p>▸ Deployment</p>
               <p><b>Raspberry Pi, MySQL</b></p>
@@ -353,8 +353,8 @@
           <div class="small_txt">
             ※ 진하게 표시된 부분이 제가 사용한 기술입니다.
           </div>
-        </div>
-        </div>
+        </article>
       </div>
+    </section>
   </div>
 </body>
