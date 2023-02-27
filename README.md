@@ -1,6 +1,10 @@
 # PERSONAL-PORTFOLIO
+- 사이트 접속 http://3.35.48.122
 
-<br>
+- 로컬에서 실행
+  - 레포지토리 내 모든 파일을 받아 VSC에서 live server 설치 후 **index.html**을 실행하면 됩니다.
+
+<br><br>
 
 ## 1. 프로젝트 개요
 프론트엔드 개발 경험이 없어 만들게 된 첫 프론트엔트 프로젝트입니다.
@@ -26,8 +30,3 @@
 
 ## 5. 이슈와 해결
 - [Chrome 크로스 도메인 이슈: CORS policy 해결](https://velog.io/@eunsilson/Chrome-%ED%81%AC%EB%A1%9C%EC%8A%A4-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%9D%B4%EC%8A%88-CORS-policy-%ED%95%B4%EA%B2%B0)
-
-<br>
-
-### 실행 방법
-레포지토리 내 모든 파일을 받아 VSC에서 live server 설치 후 **index.html**을 실행하면 됩니다.
