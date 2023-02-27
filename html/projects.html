@@ -16,18 +16,19 @@
         <article class="projects_img_box">
           <img class="projects_img" src="..\img\projects_guestbook_1.png" />
           <img class="projects_img" src="..\img\projects_guestbook_2.png" />
-          <img class="projects_img" src="..\img\projects_guestbook_3.png" />
         </article>
         <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
-              메세지를 남길 수 있는 <b>방명록 목적의 게스트북</b> 입니다.<br>실제 운영 가능한 서비스가 아닌 공부 목적의 프로젝트 입니다.<br>
-              졸업 작품 프로젝트에서 미숙하게 사용했던 기술을 제대로 사용해보기 위해 <span class="highlight_txt">CRUD</span>에 초점을 두었습니다.
+              프론트엔드 기술을 사용해 무언가를 만들어 본 적이 없었고, Spring Boot를 처음부터 설계해보고 싶어 <b>기획 • 개발 • 배포까지 혼자 진행한 CRUD 중심</b>의 토이프로젝트입니다.
             </div>
             <div class="projects_comment">
-              FE와 BE 둘 다 개발하며 <span class="highlight_txt">REST API의 사용법</span>을 더 숙지한 계기가 되었습니다.
-              JPA의 Hibernate로 DB 작업을 하면서 <span class="highlight_txt">트랜잭션의 중요성과 영속성 문제</span>를 찾아보게 되었습니다. 서버는 클라우드 서버에
-              Docker로 배포 했습니다.<br><br>발생한 이슈 및 해결 방법과 개발 회고록이 공부 블로그에 기록되어 있습니다.
+              HTTP 상태 코드를 이해하고, HTTP 요청과 응답을 JSON 형태로 주고 받는 <span class="highlight_txt">Axios</span>를 사용했고, <span class="highlight_txt">RESTful API</span>의 사용법을 숙지해 GET과 POST의 차이를 알게되었습니다.
+            </div>
+            <div class="projects_comment">
+              프론트엔드가 클라우드 서버와 소통을 하면서 웹페이지에서 다른 출처에 있는 자원을 가져올 때 해커의 악의적인 경우를 방지하기 위한 <span class="highlight_txt">Cors Policy 정책</span>을 알게되었습니다.<br><br>
+              JPA의 Hibernate를 사용하며 delete 메서드 사용 시 트랜잭션의 중요성과 영속성의 개념을 알게됨<br><br>
+              <span class="highlight_txt">JPA</span>의 Hibernate를 사용하며 delete 메서드 사용 시 <span class="highlight_txt">트랜잭션의 중요성과 영속성의 개념</span>을 알게됨
             </div>
           </div>
 
@@ -35,17 +36,6 @@
             <div class="projects_info">
               <p>▸ 주요 기능</p>
               <p>모든 카드 보기, 내가 쓴 카드 보기, 카드 및 댓글 작성 · 수정 · 삭제 · 조회</p>
-            </div>
-            <div class="projects_info">
-              <p>▸ GitHub</p>
-              <p><a class="link" href="https://github.com/EunsilSon/guest-book"
-                  target="_blank">https://github.com/EunsilSon/guest-book</a></p>
-            </div>
-            <div class="projects_info">
-              <p>▸ 회고록</p>
-              <p><a class="link"
-                  href="https://velog.io/@eunsilson/%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B2%8C%EC%8A%A4%ED%8A%B8%EB%B6%81-%ED%9A%8C%EA%B3%A0%EB%A1%9D"
-                  target="_blank">https://velog.io/@eunsilson</a></p>
             </div>
             <div class="projects_info">
               <p>▸ Front-end</p>
@@ -59,6 +49,17 @@
               <p>▸ Deployment</p>
               <p>AWS (EC2, RDS)</p>
             </div>
+            <div class="projects_info">
+              <p>▸ GitHub</p>
+              <p><a class="link" href="https://github.com/EunsilSon/guest-book"
+                  target="_blank">https://github.com/EunsilSon/guest-book</a></p>
+            </div>
+            <div class="projects_info">
+              <p>▸ 회고록</p>
+              <p><a class="link"
+                  href="https://velog.io/@eunsilson/%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B2%8C%EC%8A%A4%ED%8A%B8%EB%B6%81-%ED%9A%8C%EA%B3%A0%EB%A1%9D"
+                  target="_blank">https://velog.io/@eunsilson</a></p>
+            </div>
           </article>
         </article>
     </section>
@@ -71,7 +72,6 @@
       <div class="projects_main_contents_box">
         <article class="projects_img_box">
           <img class="projects_img" src="..\img\projects_6_portfolio(2).png" />
-          <img class="projects_img" src="..\img\projects_6_portfolio(1).png" />
         </article>
         <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
@@ -83,7 +83,7 @@
               레이아웃 배치를 위해서 <span class="highlight_txt">CSS flex</span>를 주로 사용했습니다.
             </div>
             <div class="projects_comment">
-              <span class="highlight_txt">아파치 HTTP 서버</span>를 설치해 웹을 배포했었으며, 현재 서버는 닫힌 상태입니다.
+              AWS EC2를 구축하여 <span class="highlight_txt">아파치 HTTP 서버</span>를 사용해 웹을 배포했습니다.
             </div>
           </div>
           <article class="projects_info_box">
@@ -92,17 +92,17 @@
               <p>개인 정보, 보유 기술, GitHub · Blog 링크, 개발 프로젝트 설명</p>
             </div>
             <div class="projects_info">
-              <p>▸ GitHub</p>
-              <p><a class="link" href="https://github.com/EunsilSon/personal-portfolio"
-                  target="_blank">https://github.com/EunsilSon/personal-portfolio</a></p>
-            </div>
-            <div class="projects_info">
               <p>▸ Front-end</p>
-              <p>HTML, CSS</p>
+              <p>HTML/CSS</p>
             </div>
             <div class="projects_info">
               <p>▸ Deployment</p>
               <p>AWS</p>
+            </div>
+            <div class="projects_info">
+              <p>▸ GitHub</p>
+              <p><a class="link" href="https://github.com/EunsilSon/personal-portfolio"
+                  target="_blank">https://github.com/EunsilSon/personal-portfolio</a></p>
             </div>
           </article>
         </article>
@@ -118,34 +118,29 @@
         <article class="projects_img_box">
           <img class="projects_img" src="..\img\projects_1_main.png" />
           <img class="projects_img" src="..\img\projects_1_server.png" />
-          <img class="projects_img" src="..\img\projects_1_dockerhub.png" />
         </article>
         <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
-              <b>AI 기반의 문제 풀이를 제공하는 One-Pass</b> 입니다. CCNA는 문제 은행 식으로 출제되는 경우가 많은 시험입니다. 문제 은행식의 CCNA 시험을 대비하기 위해 개발하게
-              되었습니다.
+              졸업 작품으로 개발한 <b>AI 기반의 문제 풀이를 제공</b>하는 웹 사이트입니다. 문제은행식의 CCNA 문제가 출제되는 학교 시험을 대비하기 위한 서비스입니다. <b>서버 구축과 CI/CD 구현</b>에 집중했습니다.
             </div>
             <div class="projects_comment">
-              BE는 <span class="highlight_txt">서비스들이 여러 개로 분산</span>되어 Eureka 서버를 기준으로 연결되는 <span
-                class="highlight_txt">MSA로 설계</span>되었습니다.
-              분산된 서비스들을 하나의 API로 상호작용하는 과정에서 <span class="highlight_txt">라우팅과 로드밸런싱의 개념</span>을 알게되었습니다.
+              BE는 <span class="highlight_txt">서비스들이 여러 개로 분리</span>되어 Eureka 서버를 기준으로 연결되는 <span
+                class="highlight_txt">마이크로 서비스 아키텍처를 경험</span>해보았습니다. 분산된 서비스들을 하나의 API로 상호작용하는 과정에서 <span class="highlight_txt">라우팅과 로드밸런싱의 개념</span>을 알게되었습니다.
             </div>
             <div class="projects_comment">
-              분산된 서비스들을 독립적으로 <span class="highlight_txt">자동 테스트 및 배포</span>를 진행하기 위해 <span
-                class="highlight_txt">CI/CD</span>를 구현했습니다.
-              자동 빌드를 위해 <span class="highlight_txt">Jenkins와 GitHub를 연결</span>하였고, 자동 배포를 위해<span class="highlight_txt">
-                Docker</span>를 사용했습니다.
+              빌드로 인한 <span class="highlight_txt">서버 부하 방지</span>를 위해 <span
+                class="highlight_txt">서버를 분리</span>해 CI 서버와 CD 서버의 각 역할을 쉘 스크립트로 조작 및 원격으로 제어했습니다.
+            </div>
+            <div class="projects_comment">
+              <b>CI 서버:</b> <span class="highlight_txt">Jenkins를 GitHub Webhook과 연결</span>해 자동 빌드 수행 후 성공 시 <span class="highlight_txt">Docker</span> image 생성 후 Docker Hub에 push 했습니다.<br><br>
+              <b>CD 서버:</b> Docker Hub에 있는 image를 pull 받아 docker 컨테이너를 생성해 자동 배포를 수행했습니다.
             </div>
           </div>
           <article class="projects_info_box">
             <div class="projects_info">
               <p>▸ 주요 기능</p>
               <p>원하는 개수만큼 문제 풀기, 문제의 핵심 키워드 보기, 포인트 기능</p>
-            </div>
-            <div class="projects_info">
-              <p>▸ GitHub</p>
-              <p><a class="link" href="https://github.com/Team-Rev" target="_blank">https://github.com/Team-Rev</a></p>
             </div>
             <div class="projects_info">
               <p>▸ Front-end</p>
@@ -159,58 +154,9 @@
               <p>▸ Deployment</p>
               <p><b>AWS, GCP, Docker, Jenkins, MariaDB</b></p>
             </div>
-          </article>
-          <div class="small_txt">
-            ※ 진하게 표시된 부분이 제가 사용한 기술입니다.
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="projects_main_box">
-      <header class="projects_title_box">
-        <p class="projects_title_txt">Navo Ground</>
-        <p class="projects_time_people">2020.09 - 2020.11 (5人 팀 프로젝트)</p>
-      </header>
-      <div class="projects_main_contents_box">
-        <article class="projects_img_box">
-          <img class="projects_img" src="..\img\projects_2_navo.png" />
-        </article>
-        <article class="projects_comment_box">
-          <div class="projects_comment_box_bottom_line">
-            <div class="projects_comment">
-              <b>실시간 멀티 2D 슈팅 게임입니다. 최대 5명이 동시 접속하여 함께 게임을 할 수 있습니다.</b>
-              여러 대의 클라이언트가 하나의 서버에 접속해 실시간으로 소통하는 것을 이해할 수 있었던 프로젝트 입니다.
-            </div>
-            <div class="projects_comment">
-              서버와 클라이언트의 소켓을 통한 연결의 한계와 <span class="highlight_txt">스레드</span>를 사용한 데이터 관리의 불편함을 느끼게 되었습니다.
-            </div>
-            <div class="projects_comment">
-              기존의 구조였던 Blocking 방식이 실시간 게임에 맞지 않다는 것을 깨닫고 <span class="highlight_txt">Non-Blocking 방식의 Netty 서버
-                프레임워크</span>를 사용했습니다.
-            </div>
-          </div>
-          <article class="projects_info_box">
-            <div class="projects_info">
-              <p>▸ 주요 기능</p>
-              <p>상하좌우 이동, 무기 습득, 공격, 무기 버리기, 미니맵 보기</p>
-            </div>
             <div class="projects_info">
               <p>▸ GitHub</p>
-              <p><a class="link" href="https://github.com/Team-Navo" target="_blank">https://github.com/Team-Navo</a>
-              </p>
-            </div>
-            <div class="projects_info">
-              <p>▸ Front-end</p>
-              <p>lib Gdx</p>
-            </div>
-            <div class="projects_info">
-              <p>▸ Back-end</p>
-              <p><b>Java, JDBC, Netty</b></p>
-            </div>
-            <div class="projects_info">
-              <p>▸ Deployment</p>
-              <p><b>MySQL</b></p>
+              <p><a class="link" href="https://github.com/Team-Rev" target="_blank">https://github.com/Team-Rev</a></p>
             </div>
           </article>
           <div class="small_txt">
@@ -222,8 +168,8 @@
 
     <section class="projects_main_box">
       <header class="projects_title_box">
-        <p class="projects_title_txt">Linux 환경의 JSP 웹 사이트 구축</>
-        <p class="projects_time_people">2020.12 (1人 서버 구축 과제)</p>
+        <p class="projects_title_txt">Linux 서버 구축 프로젝트</>
+        <p class="projects_time_people">2020.12 (1人 프로젝트)</p>
       </header>
       <div class="projects_main_contents_box">
         <article class="projects_img_box">
@@ -232,15 +178,13 @@
         <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
-              <b>‘Linux 환경에서 JDK+TOMCAT+MYSQL 을 연동한 사이트 구축’ 과제를 받아 수행했습니다.</b>
-              Ubuntu 운영체제의 터미널에서 작업을 진행했고 <span class="highlight_txt">JDK, Tomcat8, MySQL을 설치 및 연동</span>해 웹 서버를
-              구축했습니다.<br>
-              샘플 페이지 코드를 실행시켜 JDBC 연동, 페이지 실행 및 DB 접근 테스트를 진행했습니다.
+              <b>Linux 환경에서 JDK+Tomcat+MySQL을 연동해 웹 서버를 구축</b>한 토이프로젝트입니다.
             </div>
             <div class="projects_comment">
-              CMD 환경에 익숙해지고 <span class="highlight_txt">리눅스</span>의 폴더 구조를 몸소 느낄 수 있었던 과제입니다.<br>
-              VMware에서 가상 OS를 설치해 진행했으며 '일단 부딪혀보자' 라는 생각에 여러 명령들을 입력해보고 무언가 꼬였다는 느낌이 들면 가상 OS를 재설치하여 처음부터 다시 작업해보면서 리눅스에
-              흥미를 갖게되었습니다.
+              CentOS 환경에서 JSP와 데이터베이스 연동을 위해 JDK 설치 후 <span class="highlight_txt">JDBC</span>를 MySQL과 연동 후 <span class="highlight_txt">Tomcat</span>으로 웹 서버를 실행했습니다.
+            </div>
+            <div class="projects_comment">
+              <span class="highlight_txt">CLI</span> 환경에 익숙해지며 리눅스에 흥미를 갖게되었습니다.
             </div>
           </div>
           <article class="projects_info_box">
@@ -259,39 +203,51 @@
 
     <section class="projects_main_box">
       <header class="projects_title_box">
-        <p class="projects_title_txt">Simpletron : 미니 기계어 인터프리터</>
-        <p class="projects_time_people">2020.04 (1人 코딩 과제)</p>
+        <p class="projects_title_txt">Navo Ground</>
+        <p class="projects_time_people">2020.09 - 2020.11 (5人 팀 프로젝트)</p>
       </header>
       <div class="projects_main_contents_box">
         <article class="projects_img_box">
-          <img class="projects_img" src="..\img\projects_4_sml.png" />
+          <img class="projects_img" src="..\img\projects_2_navo.png" />
         </article>
         <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
-              <b>'나만의 컴퓨터 만들기' 라는 코딩 과제를 받아 SML(Simpletron Machine Language) 로 작동되는 기계어 프로그램을 만들었습니다.</b>
-              직접 만든 Simpletron으로 문제를 해결했습니다. 문제에 대한 자세한 내용은 아래 GitHub에 있습니다.
+              <b>실시간 멀티 2D 슈팅 게임</b>입니다. 최대 5명이 동시 접속하여 함께 게임을 할 수 있습니다.
             </div>
             <div class="projects_comment">
-              <span class="highlight_txt">컴파일러와 인터프리터의 차이</span>를 알게된 과제입니다. 고급 프로그래밍 언어를 사용하면서 컴퓨터가 어떻게 이해해서 내가 원하는 대로
-              처리를 하는 지에 대한 관심을 가지게 되었습니다.
+              하나의 DB Connection을 여러 군데에서 사용하는 환경에 <span class="highlight_txt">싱글톤 패턴</span>을 적용시켜 코드 간 결합도를 낮춤
+            </div>
+            <div class="projects_comment">
+              클라이언트끼리 데이터를 주고 받을 때 <span class="highlight_txt">JSON</span>으로 파싱하는 과정에서 큰 DB에서 필요한 데이터만 꺼내 특정 방식으로 정리한다는 것에 흥미를 느낌
             </div>
           </div>
           <article class="projects_info_box">
             <div class="projects_info">
               <p>▸ 주요 기능</p>
-              <p>기계어 프로그래밍</p>
+              <p>상하좌우 이동, 무기 습득, 공격, 무기 버리기, 미니맵 보기</p>
             </div>
             <div class="projects_info">
-              <p>▸ GitHub</p>
-              <p><a class="link" href="https://github.com/EunsilSon/simpletron-machine-language"
-                  target="_blank">https://github.com/EunsilSon/simpletron-machine-language</a></p>
+              <p>▸ Front-end</p>
+              <p>lib Gdx</p>
             </div>
             <div class="projects_info">
               <p>▸ Back-end</p>
-              <p>Java</p>
+              <p><b>Java, JDBC,</b> Netty</p>
+            </div>
+            <div class="projects_info">
+              <p>▸ Deployment</p>
+              <p><b>MySQL</b></p>
+            </div>
+            <div class="projects_info">
+              <p>▸ GitHub</p>
+              <p><a class="link" href="https://github.com/Team-Navo" target="_blank">https://github.com/Team-Navo</a>
+              </p>
             </div>
           </article>
+          <div class="small_txt">
+            ※ 진하게 표시된 부분이 제가 사용한 기술입니다.
+          </div>
         </article>
       </div>
     </section>
@@ -310,32 +266,22 @@
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
               <b>2020 이브와 ICT 공모전에서 은상을 수상한 '수직 파이프 스마트팜' 입니다. </b>
-              사물인터넷(IoT) 을 통해 작물 성장에 필요한 데이터를 수집하여 장소와 날씨에 구애받지않으며 작물을 재배할 수 있는 ict를 활용한 영농 기술입니다.
+              스마트팜은 사물인터넷(IoT)을 통해 작물 성장에 필요한 데이터를 수집하여 작물을 재배할 수 있는 농장입니다. PVC 파이프로 제작하고 각종 센서를 부착해 환경을 구성했습니다.
             </div>
             <div class="projects_comment">
-              팀장을 맡아 전반적인 업무 총괄 및 보고서 작성을 맡았습니다. 스마트팜을 개발하며 <span class="highlight_txt">팀원들과의 의사소통과 협동심의 중요성</span>을
-              배웠습니다. 개개인이 여러 의견을 내어 원활한 소통을 통한 협동심이 큰 성과를 내기에 가장 좋은 거름이라는 것을 몸소 느꼈습니다.
+              개발 실력보다 팀원들과의 <span class="highlight_txt"></span>의사소통의 중요성</span>을 배움. 개개인이 여러 의견을 내어 원활한 소통을 통한 협동심이 큰 성과를 내기에 가장 좋은 거름이라는 것을 몸소 느낌
             </div>
             <div class="projects_comment">
-              <span class="highlight_txt">개발 과정들을 문서화</span>하는 과정에서 개발자에게 <span class="highlight_txt">글쓰기 실력</span>도
-              필요하다는 것을 깨달았습니다. 상품 출시를 위해 고객이 우리의 개발품을 이해할 수 있도록 개발 언어를 비 개발 언어로 바꿔 설명할 수 있어야 함을 알게 되었습니다. 개발의 마지막 단계인
-              문서화 과정까지 잘 해내 좋은 성과를 이뤄냈습니다.
+              <span class="highlight_txt">개발 과정들을 문서화</span>하는 과정에서 유지 보수를 위해 객관적이고, 가독성 좋은 글을 써 개발 과정을 설명하는 것도 개발만큼 중요한 부분임을 깨달음
+            </div>
+            <div class="projects_comment">
+              1, 2, 3차 개발보고서와 제작 설계서를 작성하여 통과했고, 최종 발표를 거쳐 최종적으로 은상이라는 성과를 이뤄냄
             </div>
           </div>
           <article class="projects_info_box">
             <div class="projects_info">
               <p>▸ 주요 기능</p>
               <p>재배기 실시간 모니터링 및 온·습도 현황, 조도 · pH · 물 수위 센서 </p>
-            </div>
-            <div class="projects_info">
-              <p>▸ 제작 과정</p>
-              <p><a class="link" href="https://youtu.be/5QmqNbiOt_U" target="_blank">https://youtu.be/5QmqNbiOt_U</a>
-              </p>
-            </div>
-            <div class="projects_info">
-              <p>▸ 완성작</p>
-              <p><a class="link" href="https://youtu.be/96AHTVAk0O0" target="_blank">https://youtu.be/96AHTVAk0O0</a>
-              </p>
             </div>
             <div class="projects_info">
               <p>▸ Front-end</p>
@@ -348,6 +294,16 @@
             <div class="projects_info">
               <p>▸ Deployment</p>
               <p><b>Raspberry Pi, MySQL</b></p>
+            </div>
+            <div class="projects_info">
+              <p>▸ 제작 과정</p>
+              <p><a class="link" href="https://youtu.be/5QmqNbiOt_U" target="_blank">https://youtu.be/5QmqNbiOt_U</a>
+              </p>
+            </div>
+            <div class="projects_info">
+              <p>▸ 완성작</p>
+              <p><a class="link" href="https://youtu.be/96AHTVAk0O0" target="_blank">https://youtu.be/96AHTVAk0O0</a>
+              </p>
             </div>
           </article>
           <div class="small_txt">
