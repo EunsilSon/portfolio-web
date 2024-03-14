@@ -1,8 +1,6 @@
 # PERSONAL-PORTFOLIO
-- 사이트 접속 http://3.35.50.15
-
-- 로컬에서 실행
-  - 레포지토리 내 모든 파일을 받아 VSC에서 live server 설치 후 **index.html**을 실행하면 됩니다.
+### 실행 방법
+레포지토리 내 모든 파일을 받아 VSC에서 live server 설치 후 **index.html** 실행
 
 <br><br>
 
