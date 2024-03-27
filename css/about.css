@@ -31,7 +31,6 @@
   width: 300px;
   margin: 50px 30px 50px 30px;
   display: flex;
-  flex-direction: row;
 }
 
 .text {
@@ -40,8 +39,7 @@
 
 .text_box {
   text-align: left;
-  margin-left: 30px;
-  padding-top: 5px;
+  padding: 5px 0px 0px 15px;
 }
 
 .img {

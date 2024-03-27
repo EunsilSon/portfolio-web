@@ -13,8 +13,8 @@
   position: fixed;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  font-family: 'IBM Plex Sans KR', sans-serif;
   background-color: #FFF;
+  font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .menu_inner {
@@ -32,7 +32,7 @@
 
 .logo a {
   float: left;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
   line-height: 80px;
   margin-left: 40px;
@@ -54,7 +54,7 @@
   text-decoration: none;
   color: gray;
   line-height: 80px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -73,7 +73,6 @@ footer {
   letter-spacing: 2px;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Noto Sans KR', sans-serif;
   color: white;
   background: black;
 }

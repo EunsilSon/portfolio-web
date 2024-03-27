@@ -8,8 +8,6 @@
 #home {
   overflow: hidden;
   margin: auto;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: bold;
 }
 
 #inner {
@@ -23,17 +21,24 @@
 
 #img {
   width: 400px;
+  margin-left: 100px;
   margin-right: 30px;
 }
 
 #txt {
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
+  font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
-#txt b {
+#txt span {
   color: rgb(80, 130, 240);
+}
+
+#small_txt {
+  font-size: 18px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #btn {

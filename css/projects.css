@@ -11,6 +11,7 @@
   padding-bottom: 50px;
   text-align: center;
   background: #668CD0;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .projects_main_box {
@@ -26,7 +27,6 @@
   display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .projects_title_box {
@@ -51,6 +51,7 @@
 }
 
 .projects_comment {
+  font-size: 16px;
   text-align: left;
   padding-bottom: 20px;
 }
@@ -75,13 +76,6 @@
 .projects_img {
   width: 430px;
   margin-bottom: 5px;
-}
-
-.small_txt {
-  float: right;
-  font-size: 13px;
-  font-weight: bold;
-  color: darkgray;
 }
 
 .highlight_txt {
