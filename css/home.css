@@ -9,39 +9,39 @@
   overflow: hidden;
   margin: auto;
   font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
 }
 
 #inner {
   display: flex;
-  flex-direction: row;
   justify-content: center; /* 가로 정렬 */
   align-items: center; /* 세로 정렬 */
-  padding-top: 155px;
-  margin-bottom: 80px;
+  margin-top: 150px;
+  margin-bottom: 50px;
   background: #FFF;
 }
 
 #img {
   width: 400px;
-  margin-right: 100px;
+  margin-right: 30px;
 }
 
 #txt {
-  padding: 0px 0px 20px 0px;
-  font-size: 25px;
+  margin-bottom: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 #txt b {
-  color: rgb(79, 129, 238);
+  color: rgb(80, 130, 240);
 }
 
 #btn {
   width: 150px;
   height: 50px;
-  line-height: 50px;
   margin: auto;
   border-radius: 20px;
+  line-height: 50px;
   text-align: center;
   background-color: rgb(255, 197, 36);
   cursor: pointer;
