@@ -1,28 +1,29 @@
 # PERSONAL-PORTFOLIO
 ### 실행 방법
-레포지토리 내 모든 파일을 받아 VSC에서 live server 설치 후 **index.html** 실행
+레포지토리 내 모든 파일을 받아 VSC에서 Live server 설치 후 **index.html** 실행
 
 <br><br>
 
 ## 1. 프로젝트 개요
-프론트엔드 개발 경험이 없어 만들게 된 첫 프론트엔트 프로젝트입니다.
+프론트엔드 공부를 위해 개발한 첫 프론트엔드 프로젝트입니다.
 
 <br>
 
 ## 2. 프로젝트 설명
-**포트폴리오** 목적의 웹 사이트입니다. 필수적인 내용들만 간추려 작성했습니다.
+**포트폴리오** 목적의 원 페이지 웹 사이트입니다. 필수적인 내용들만 간추려 작성했습니다.
 
 <br>
 
 ## 3. 사용 기술
 - HTML
 - CSS
-- JavaScript
+- VanilaJS
 
 <br>
 
 ## 4. 완성 모습 
-<img src="https://user-images.githubusercontent.com/46162801/199144157-d72cba57-902f-4144-bc85-e6785de95eb4.gif" />
+![ezgif com-video-to-gif-converter](https://github.com/EunsilSon/personal-portfolio/assets/46162801/b04c3619-9f31-42ca-aea6-a8ea2f06e411)
+
 
 <br>
 
