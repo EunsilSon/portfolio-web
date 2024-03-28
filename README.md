@@ -22,8 +22,9 @@
 <br>
 
 ## 4. 완성 모습 
-![ezgif com-video-to-gif-converter](https://github.com/EunsilSon/personal-portfolio/assets/46162801/b04c3619-9f31-42ca-aea6-a8ea2f06e411)
->**실행 방법**<br>
+![포트폴리오](https://github.com/EunsilSon/portfolio-web/assets/46162801/c4f205cd-68e6-4cbd-8e13-c55c6b4e8823)
+
+>**로컬에서 실행하는 방법**<br>
 레포지토리 내 모든 파일을 받아 VSC에서 Live server 설치 후 **index.html** 실행
 
 <br>
