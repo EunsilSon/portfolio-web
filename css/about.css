@@ -15,9 +15,12 @@
 }
 
 #main_box {
-  width: 1000px;
+  width: 1050px;
+  height: 380px;
   margin: auto;
-  padding: 10px 50px 10px 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
   border-radius: 10px;
   box-shadow: 10px 10px 10px -5px grey;
   background-color: white;
@@ -25,12 +28,12 @@
 
 .sub_box {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .item_box {
-  width: 300px;
-  margin: 50px 30px 50px 30px;
   display: flex;
+  padding-right: 40px;
 }
 
 .text {
@@ -39,10 +42,11 @@
 
 .text_box {
   text-align: left;
-  padding: 5px 0px 0px 15px;
+  align-content: center;
 }
 
 .img {
   width: 80px;
   height: 80px;
+  padding: 0px 20px 0px 20px;
 }
