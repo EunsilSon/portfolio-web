@@ -22,7 +22,7 @@
 <br>
 
 ## 4. 완성 모습 
-![포트폴리오](https://github.com/EunsilSon/portfolio-web/assets/46162801/c4f205cd-68e6-4cbd-8e13-c55c6b4e8823)
+![포트폴리오](https://github.com/EunsilSon/portfolio-web/assets/46162801/4f88b3f9-137b-4b9c-809b-44bdcc640494)
 
 >**로컬에서 실행하는 방법**<br>
 레포지토리 내 모든 파일을 받아 VSC에서 Live server 설치 후 **index.html** 실행
