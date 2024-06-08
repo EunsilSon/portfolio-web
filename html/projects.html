@@ -20,14 +20,15 @@
         <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
-              <b>‘게스트북’은 방명록을 남길 수 있는 웹 서비스입니다.</b><br>기본적인 CRUD 기능을 제공하며, 사용자들은 회원가입을 거친 후 서비스를 사용할 수 있습니다.
+              <b>방명록을 남길 수 있는 웹 서비스입니다.</b> 기본적인 CRUD 기능을 제공하며, 사용자들은 회원가입을 거친 후 서비스를 사용할 수 있습니다.
             </div>
             <div class="projects_comment">
-              Spring Boot 기반의 <span class="highlight_txt">REST API 서버</span>를 개발하고, <span class="highlight_txt">CORS Policy</span>를 해결했습니다.
-              <span class="highlight_txt">스프링 데이터 JPA를 적용해 DB를 관리</span>하며 트랜잭션의 중요성을 알게됐습니다.
+              Spring Boot 기반의 <span class="highlight_txt">REST API 서버</span>를 개발하고, <span class="highlight_txt">MVC 패턴</span>으로 모듈화하여 코드를 작성했습니다.
+              스프링 데이터 JPA를 활용하여 <span class="highlight_txt">객체와 테이블을 매핑하고 연관 관계를 설정</span>했습니다.
             </div>
             <div class="projects_comment">
-              프론트 작업은 VanilaJs를 사용했으며 <span class="highlight_txt">Axios 라이브러리</span>로 서버와 통신했습니다. AWS EC2 서버를 구축해 <span class="highlight_txt">Docker</span>를 사용하여 배포했습니다.
+              Axios 라이브러리를 통한 데이터 송수신 처리를 경험해 <span class="highlight_txt">클라이언트에서의 API 통신을 이해</span>하고 있습니다. 
+              AWS EC2를 구축해 Docker의 Tomcat <span class="highlight_txt">컨테이너를 배포</span>했습니다.
             </div>
           </div>
 
@@ -42,11 +43,11 @@
             </div>
             <div class="projects_info">
               <p>▸ Back-end</p>
-              <p>Java, Spring Boot, JPA (Hibernate)</p>
+              <p>Java, Spring Boot, Spring Data JPA </p>
             </div>
             <div class="projects_info">
               <p>▸ Deployment</p>
-              <p>AWS (EC2, RDS)</p>
+              <p>AWS EC2 · RDS, MariaDB</p>
             </div>
             <div class="projects_info">
               <p>▸ GitHub</p>
@@ -79,13 +80,10 @@
               지금 보고 계시는 저의 <b>원 페이지 포트폴리오 웹입니다.</b> <br>프론트엔드 개발 경험이 없어 기본부터 배워보고자 순수 HTML과 CSS로 개발했습니다. 
             </div>
             <div class="projects_comment">
-              스크롤을 내리며 모든 정보를 볼 수 있고, <span class="highlight_txt">상단 메뉴바는 상단에 고정되어 함께 스크롤</span> 됩니다.
+              스크롤을 내리며 모든 정보를 볼 수 있고, <span class="highlight_txt">상단 메뉴바는 상단에 고정되어 함께 스크롤</span> 됩니다. 모든 HTML파일을 하나의 HTML파일에 불러오기 위해 data-include-path을 사용했습니다.
             </div>
             <div class="projects_comment">
-              모든 HTML파일을 하나의 HTML파일에 불러오기 위해 data-include-path을 사용했고, 출처를 동일하게 인식하기 위해 <span class="highlight_txt">HTTP Server</span>를 설치해 로컬에서 개발했습니다.
-            </div>
-            <div class="projects_comment">
-              AWS EC2를 구축하고, <span class="highlight_txt">Apache2</span>를 사용해 배포했습니다.<br>AWS Route 53을 이용해 <span class="highlight_txt">도메인을 적용</span>했습니다.
+              AWS EC2를 구축하고 Apache2를 사용해 배포했습니다. AWS Route 53을 이용해 <span class="highlight_txt">도메인을 적용</span>해 외부 접속이 가능합니다. (PC 화면에 최적화되어 있습니다.)
             </div>
           </div>
           <article class="projects_info_box">
@@ -106,6 +104,11 @@
               <p><a class="link" href="https://github.com/EunsilSon/personal-portfolio"
                   target="_blank">https://github.com/EunsilSon/personal-portfolio</a></p>
             </div>
+            <div class="projects_info">
+              <p>▸ Link</p>
+              <p><a class="link" href="http://eunsilson-portfolio.site/"
+                  target="_blank">http://eunsilson-portfolio.site/</a></p>
+            </div>
           </article>
         </article>
       </div>
@@ -124,14 +127,13 @@
         <article class="projects_comment_box">
           <div class="projects_comment_box_bottom_line">
             <div class="projects_comment">
-              <b>‘One-Pass’는 문제은행식의 CCNA 문제가 출제되는 학교 시험을 대비하기 위한 문제 풀이 웹 서비스입니다.</b> Spring Boot 기반의 백엔드 서버는 독립적인 서비스로 분리되어 미들웨어 서버 Eureka를 기준으로 연결됩니다.
+              <b>문제은행식의 CCNA 시험을 대비하기 위한 문제 풀이 웹 서비스입니다.</b> Spring Boot 기반의 백엔드 서버는 독립적인 서비스로 분리되어 미들웨어 서버 Eureka를 기준으로 연결됩니다.
             </div>
             <div class="projects_comment">
-              Spring Boot 기반의 <span class="highlight_txt">REST 서버</span>를 개발하고, 서비스들이 분리되어 Eureka 서버를 기준으로 연결되는 <span
-                class="highlight_txt">MSA 환경</span>을 경험했습니다.
+              Spring Boot 기반의 REST 서버를 개발하고, <span class="highlight_txt">MSA</span>의 포인트 기능과 문의 게시판을 개발했습니다.
             </div>
             <div class="projects_comment">
-              <span class="highlight_txt">Jenkins와 GitHub WebHook</span>을 연결해 자동 빌드, <span class="highlight_txt">Docker와 Docker Hub</span>를 이용해 자동 배포를 구현했습니다. <span class="highlight_txt">Shell script</span>를 작성해 모든 자동화 단계 실행했습니다.  <br><br>자동화 도구를 사용하지 않고 직접 구현하며 <span class="highlight_txt">요구 사항에 맞게 시스템을 구축하는 능력</span>과, 여러 기술의 상호 작용에 대한 이해가 깊어졌습니다. 
+              <span class="highlight_txt">Jenkins와 GitHub Webhooks</span>을 연동해 자동 빌드, <span class="highlight_txt">Docker와 Docker Hub</span>를 활용해 자동 배포를 구현했습니다. <span class="highlight_txt">Shell Script</span>를 작성해 모든 자동화 단계를 원격으로 실행했습니다.  <br><br><span class="highlight_txt">요구 사항에 맞게 시스템을 구축하는 능력</span>과, 여러 기술의 상호 작용에 대한 이해가 깊어졌습니다. 
             </div>
             <div class="projects_comment">
               
@@ -144,7 +146,7 @@
             </div>
             <div class="projects_info">
               <p>▸ Back-end</p>
-              <p>Java, Spring Boot, JPA (Hibernate)</p>
+              <p>Java, Spring Boot, Spring Data JPA</p>
             </div>
             <div class="projects_info">
               <p>▸ Deployment</p>
@@ -153,45 +155,6 @@
             <div class="projects_info">
               <p>▸ GitHub</p>
               <p><a class="link" href="https://github.com/Team-Rev" target="_blank">https://github.com/Team-Rev</a></p>
-            </div>
-          </article>
-        </article>
-      </div>
-    </section>
-
-    <section class="projects_main_box">
-      <header class="projects_title_box">
-        <p class="projects_title_txt">Linux 운영체제에서 JSP 웹 사이트 구축</>
-        <p class="projects_time_people">2020.12 (1人 개인 프로젝트)</p>
-      </header>
-      <div class="projects_main_contents_box">
-        <article class="projects_img_box">
-          <img class="projects_img" src="..\img\projects_3_linux.png" />
-        </article>
-        <article class="projects_comment_box">
-          <div class="projects_comment_box_bottom_line">
-            <div class="projects_comment">
-              <b>Linux 운영체제에서 JDK+TOMCAT+MYSQL을 연동</b>해 구축한 게시판 웹 사이트입니다. <span class="highlight_txt">Linux 환경에 익숙해진</span> 프로젝트입니다.
-            </div>
-            <div class="projects_comment">
-              VMware를 이용해 Ubuntu 운영체제를 구성했고 터미널에서 작업을 진행했습니다.
-            </div>
-            <div class="projects_comment">
-              JSP 컴파일을 위한 JDK 설치 후 <span class="highlight_txt">JDBC를 사용해 DB 연동</span>을 하고, Tomcat8을 사용해 배포를 완료했습니다.
-            </div>
-          </div>
-          <article class="projects_info_box">
-            <div class="projects_info">
-              <p>▸ 주요 기능</p>
-              <p>JSP 웹 사이트 배포 </p>
-            </div>
-            <div class="projects_info">
-              <p>▸ Database</p>
-              <p>MySQL, JDBC</p>
-            </div>
-            <div class="projects_info">
-              <p>▸ Deployment</p>
-              <p>VMware, Ubuntu, Tomcat 8</p>
             </div>
           </article>
         </article>
