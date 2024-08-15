@@ -4,8 +4,8 @@
 	<title>손은실의 포트폴리오</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script src="http://code.jquery.com/jquery.min.js"></script>
-  <script src="js/scroll.js?ver=1.0.0"></script>
-  <script src="js/load_html.js?ver=1.0.0"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/load_html.js"></script>
   <link rel="stylesheet" href="css/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,5 +40,25 @@
   <footer id="footer">
     © 2023 Son Eun Sil All Rights Reserved.
   </footer>
+  <script>
+    function getFormattedDate() {
+      const date = new Date();
+      const year = date.getFullYear();
+      const month = ('0' + (date.getMonth() + 1)).slice(-2);  // 월
+      const day = ('0' + date.getDate()).slice(-2);  // 일
+
+      return `${year}${month}${day}`;
+    }
+
+    function updateQueryStringWithVersion() {
+      let url = new URL(window.location.href); // 현재 URL
+      const version = getFormattedDate(); // 현재 날짜를 yyyymmdd 형식으로 가져오기
+
+      url.searchParams.set('ver', version); // 쿼리 파라미터에 버전 추가
+      window.history.pushState({}, '', url); // 새로운 URL로 브라우저 주소 변경
+    }
+
+    window.onload = updateQueryStringWithVersion; // 쿼리 스트링 자동 업데이트
+  </script>
 </body>
 </html>
