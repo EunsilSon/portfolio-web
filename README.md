@@ -1,4 +1,7 @@
-# PORTFOLIO-WEB
+# 손은실 포트폴리오 웹 사이트
+![포트폴리오](https://github.com/EunsilSon/portfolio-web/assets/46162801/4f88b3f9-137b-4b9c-809b-44bdcc640494)
+
+<br>
 
 # 프로젝트 소개
 프론트엔드 공부를 위해 개발한 첫 프론트엔드 프로젝트이며, **포트폴리오** 목적의 원페이지 웹사이트입니다.  
@@ -7,7 +10,7 @@ AWS EC2에서 Apache2 서버를 구축해 배포했으며, AWS Route 53을 이�
 
 <br>
 
-<img width="70%" alt="architecture" src="https://github.com/user-attachments/assets/da101ecc-a2d1-45f4-8771-6b9272160802">
+<img width="50%" alt="architecture" src="https://github.com/user-attachments/assets/da101ecc-a2d1-45f4-8771-6b9272160802">
 
 <br>
 
@@ -17,11 +20,6 @@ AWS EC2에서 Apache2 서버를 구축해 배포했으며, AWS Route 53을 이�
 - Apache2
 - HTML/CSS
 - Vanila JS
-
-<br>
-
-# 완성 모습 
-![포트폴리오](https://github.com/EunsilSon/portfolio-web/assets/46162801/4f88b3f9-137b-4b9c-809b-44bdcc640494)
 
 #### 로컬에서 실행하는 방법
 레포지토리 내 모든 파일을 받아 VSC에서 Live server 설치 후 **index.html** 실행
